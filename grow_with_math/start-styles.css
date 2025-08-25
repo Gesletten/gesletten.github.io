@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    background-image: url('./images/background.png'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    margin: 0; 
+    font-family: 'Pixelify Sans', sans-serif; 
+    height: 100vh
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 0fr); 
+    grid-gap: 3vw; 
+    margin-left: 18.5vw; 
+    margin-top: 2vw;
+    margin-bottom: 0vh;
+}
+
+.grid-item {
+    display: block; 
+    
+}
+
+.grid-item img {
+    width: 30vw; 
+    height: auto; 
+    cursor: pointer; 
+    /*transition: transform 0.2s;*/ 
+}
+
+.grid-item img:hover {
+    transform: scale(1.05); 
+}
+
+.grid-item img:active {
+    filter: brightness(0.7);
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Page Title</title>
+    <link rel="stylesheet" href="math-styles.css">
+</head>
+
+<body>
+    <div class="image-container">
+        <img src="../images/numbers/one_up_button.png" class="toggle-image darken" alt="Button One" data-id="1">
+        <img src="../images/numbers/two_up_button.png" class="toggle-image" alt="Button Two" data-id="2">
+        <img src="../images/numbers/three_up_button.png" class="toggle-image" alt="Button Three" data-id="3">
+        <img src="../images/numbers/four_up_button.png" class="toggle-image" alt="Button Four" data-id="4">
+        <img src="../images/numbers/five_up_button.png" class="toggle-image" alt="Button Five" data-id="5">
+        <img src="../images/numbers/six_up_button.png" class="toggle-image" alt="Button Six" data-id="6">
+        <img src="../images/numbers/seven_up_button.png" class="toggle-image" alt="Button Seven" data-id="7">
+        <img src="../images/numbers/eight_up_button.png" class="toggle-image" alt="Button Eight" data-id="8">
+        <img src="../images/numbers/nine_up_button.png" class="toggle-image" alt="Button Nine" data-id="9">
+        <img src="../images/numbers/ten_up_button.png" class="toggle-image" alt="Button Ten" data-id="10">
+        <img src="../images/numbers/eleven_up_button.png" class="toggle-image" alt="Button Eleven" data-id="11">
+        <img src="../images/numbers/twelve_up_button.png" class="toggle-image" alt="Button Twelve" data-id="12">
+    </div>
+    <div class="borders">
+        <div class="frame_background">
+            <img src="../images/frames/big_frame.png" class="frame-image" alt="big_frame">
+            <div id="evolution-stage">
+                <img id="evolution-img" src="../images/sprites/base.gif" alt="evolution stage">
+            </div>
+        </div>
+        <div class="frame_background">
+            <img src="../images/frames/small_frame.png" class="frame-image" alt="small_frame">
+            <div id="math-problem" class="math-text"></div>
+            <input id="answer-box" type="number" placeholder="Answer" autocomplete="off" />
+            <div id="feedback"></div>
+        </div>
+    </div>
+
+    <ul id="clicked-list">
+        <!-- List of clicked images will appear here -->
+    </ul>
+    <div id="scoreboard">
+        <span id="score">Score: 0</span>
+    </div>
+    
+    <script src="./subtraction-script.js"></script>
+</body>
+</html>
