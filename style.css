@@ -106,3 +106,36 @@ body {
   margin-top: 2px;   /* smaller gap above */
   margin-bottom: 10px; /* smaller gap below */
 }
+
+
+.project-card {
+  background-color: #fff;
+  border-radius: 15px;            /* rounded corners */
+  padding: 1vw;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15); /* drop shadow */
+  max-width: 70vw;
+}
+
+.project-card h2 {
+  margin-top: 0;
+}
+
+.project-card p {
+  margin: 10px 0;
+  line-height: 1.4;
+}
+
+.project-card a {
+  display: inline-block;
+  margin-top: 10px;
+  color: white;
+  background-color: #2d4d48;
+  padding: 8px 12px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.project-card a:hover {
+  background-color: #223936;
+}
