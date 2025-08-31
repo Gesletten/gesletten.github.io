@@ -139,3 +139,8 @@ body {
 .project-card a:hover {
   background-color: #223936;
 }
+
+::selection {
+  background: #3c5b57;
+  color: #ffffff;
+}
